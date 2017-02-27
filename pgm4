@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int a,b,c;
+	clrscr();
+	printf("Enter three nos:w");
+	scanf("%d%d%d",&a,&b,&c);
+
+	if(a>b)
+	{if(a>c)
+	{printf("%d%s",a," is largest");
+	}
+	}
+
+	else if(b>a);
+	{
+	if(b>c)
+	 {
+	 printf("%d%s",b," is greatest");
+	}
+	}
+	if(c>a)
+	{
+	if(c>b)
+	printf("%d%s",c," is greatest");
+	}
+
+	getch();
+	}
+
